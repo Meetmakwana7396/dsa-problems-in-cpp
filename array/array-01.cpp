@@ -15,6 +15,7 @@ void printArray(int arr[], int n)
         cout << arr[i] << " ";
     }
 }
+
 void sortArray(int arr[], int n)
 {
     int i = 0, j = n - 1;

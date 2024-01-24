@@ -21,6 +21,7 @@ void printArray(int arr[], int size)
     }
     cout << endl;
 }
+
 int main()
 {
     int size, nums[100];
