@@ -27,6 +27,7 @@ int main()
         inis += 2;
         cout << endl;
     }
+
     inis = 2 * n - 2;
     for (int i = 0; i < n; i++)
     {
