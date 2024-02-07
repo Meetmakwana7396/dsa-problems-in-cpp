@@ -5,12 +5,13 @@ void selectionSort(int x[], int n)
 {
     for (int i = 0; i < n - 1; i++)
     {
-        int mini = x[i];
+        int mini = i;
         for (int j = i; j < n; j++)
         {
-            if (x[j] < mini)
-                swap(x[j], x[i]);
+            if (x[j] < x[mini])
+                mini = j;
         }
+        swap(x[i], x[mini]);
     }
 }
 
